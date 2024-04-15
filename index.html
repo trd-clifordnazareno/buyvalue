@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Amado - Furniture Ecommerce Template | Home</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        .price-tag {
+          width: 100px;
+          height: 100px;
+          background-color: #ffcc00;
+          border-radius: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: Arial, sans-serif;
+          text-align: center;
+        }
+        .size {
+          font-size: 16px;
+          color: #ffffff;
+          margin-bottom: 5px;
+        }
+        .dimensions {
+          font-size: 14px;
+          color: #ffffff;
+          margin-top: 5px;
+        }
+        .price {
+          font-size: 24px;
+          color: #ffffff;
+        }
+
+
+        .hole {
+            position: absolute;
+            top: 10px; /* Adjust based on the desired distance from the tag */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+      </style>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    .stars {
+      font-size: 20px;
+      /*color: gold;*/
+      color: #007bff;
+    }
+    .reviews-container {
+      max-width: 900px; /* Adjust as needed */
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .reviews {
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+    }
+    .review {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .btnreview {
+      cursor: pointer;
+      padding: 10px;
+      background-color: #fbb710;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
+    <!-- Search Wrapper Area Start -->
+    <div class="search-wrapper section-padding-100">
+        <div class="search-close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-content">
+                        <form action="#" method="get">
+                            <input type="search" name="search" id="search" placeholder="Type your keyword...">
+                            <button type="submit"><img src="img/core-img/search.png" alt=""></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search Wrapper Area End -->
+
+    <!-- ##### Main Content Wrapper Start ##### -->
+    <div class="main-content-wrapper d-flex clearfix">
+
+        <!-- Mobile Nav (max width 767px)-->
+        <div class="mobile-nav">
+            <!-- Navbar Brand -->
+            <div class="amado-navbar-brand">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <!-- Navbar Toggler -->
+            <div class="amado-navbar-toggler">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+
+        <!-- Header Area Start -->
+        <header class="header-area clearfix">
+            <!-- Close Icon -->
+            <div class="nav-close">
+                <i class="fa fa-close" aria-hidden="true"></i>
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <!-- Amado Nav -->
+            <nav class="amado-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <!-- <li><a href="shop.html">Shop</a></li> -->
+                    <!-- <li><a href="product-details.html">Product</a></li> -->
+                    <li><a href="cart.html">Cart</a></li>
+                    <!-- <li><a href="checkout.html">Checkout</a></li> -->
+                </ul>
+            </nav>
+        </br>
+            <!-- Button Group -->
+            <!-- <div class="amado-btn-group mt-30 mb-100">
+                <a href="#" class="btn amado-btn mb-15">%Discount%</a>
+                <a href="#" class="btn amado-btn active">New this week</a>
+            </div> -->
+            <!-- Cart Menu -->
+            <div class="cart-fav-search mb-100">
+                <div class="fa fa-motorcycle">  <span style="font-family: monospace;">&nbsp; Fast Delivery</span></div></br></br>
+                <div class="fa fa-money"><span style="font-family: monospace;">&nbsp; COD</span> </div></br></br>
+                <div class="fa fa-mail-reply-all"> <span style="font-family: monospace;">&nbsp; Reply Fast</span></div>
+            </div>
+            <!-- Social Button -->
+            <div class="social-info d-flex justify-content-between">
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </header>
+        <!-- Header Area End -->
+
+        <!-- Product Catagories Area Start -->
+        <div class="products-catagories-area clearfix">
+            <div class="amado-pro-catagory clearfix">
+
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    
+                        <img src="http://localhost/chair.jpg" alt="">
+                        <!-- Hover Content -->
+                        <!-- <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From $180</p>
+                            <h4>Modern Chair</h4>
+                        </div> -->
+                        <div class="price-tag hover-content" style="background: #fbb710;">
+                            <!-- <div class="hole"></div> -->
+                            <div class="size">Small</div>
+                            <div class="dimensions" style="margin-top: -7px;">40x60 cm</div>
+                            <div class="price" style="margin-top: -5px;">₱40.00</div>
+                            
+                          </div>
+                    
+                </div>
+
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    
+                        <img src="http://localhost/vaimg0.jpg" alt="">
+                        <!-- Hover Content -->
+                        <!-- <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From $180</p>
+                            <h4>Minimalistic Plant Pot</h4>
+                        </div> -->
+                        <div class="price-tag hover-content" style="background: #fbb710;">
+                            <!-- <div class="hole"></div> -->
+                            <div class="size">Medium</div>
+                            <div class="dimensions" style="margin-top: -7px;">50x70 cm</div>
+                            <div class="price" style="margin-top: -5px;">₱55.00</div>
+                            
+                          </div>
+                    
+                </div>
+
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    
+                        <img src="http://localhost/vacuuminage.png" alt="">
+                        <!-- Hover Content -->
+                        <!-- <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From $180</p>
+                            <h4>Modern Chair</h4>
+                        </div> -->
+                        <div class="price-tag hover-content" style="background: #fbb710;">
+                            <!-- <div class="hole"></div> -->
+                            <div class="size">Large</div>
+                            <div class="dimensions" style="margin-top: -7px;">60x80 cm</div>
+                            <div class="price" style="margin-top: -5px;">₱59.00</div>
+                            
+                          </div>
+                    
+                </div>
+
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    
+                        <img src="http://localhost/vacuumimgaeblue.jpg" alt="">
+                        <!-- Hover Content -->
+                        <!-- <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From $180</p>
+                            <h4>Night Stand</h4>
+                        </div> -->
+                        <div class="price-tag hover-content" style="background: #fbb710;">
+                            <!-- <div class="hole"></div> -->
+                            <div class="size">X Large</div>
+                            <div class="dimensions" style="margin-top: -7px;">80x100 cm</div>
+                            <div class="price" style="margin-top: -5px;">₱69.00</div>
+                            
+                          </div>
+                    
+                </div>
+
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    
+                        <img src="http://localhost/vacuumbagwhite.jpg" alt="">
+                        <!-- Hover Content -->
+                        <!-- <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From $18</p>
+                            <h4>Plant Pot</h4>
+                        </div> -->
+                        <div class="price-tag hover-content" style="background: #fbb710;">
+                            <!-- <div class="hole"></div> -->
+                            <div class="size">Small</div>
+                            <div class="dimensions" style="margin-top: -7px;">60x40 cm</div>
+                            <div class="price" style="margin-top: -5px;">₱40.00</div>
+                            
+                          </div>
+                    
+                </div>
+
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    
+                        <img src="http://localhost/vacuumblue.jpg" alt="">
+                        <!-- Hover Content -->
+                        <!-- <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From $320</p>
+                            <h4>Small Table</h4>
+                        </div> -->
+                        <div class="price-tag hover-content" style="background: #fbb710;">
+                            <!-- <div class="hole"></div> -->
+                            <div class="size">Medium</div>
+                            <div class="dimensions" style="margin-top: -7px;">50x70 cm</div>
+                            <div class="price" style="margin-top: -5px;">₱55.00</div>
+                            
+                          </div>
+                    
+                </div>
+
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    <video autoplay loop style="width: -webkit-fill-available; height: 329px; background: black;" muted>
+                        <source src="fgy6gnqmwqnq398XGlk_320943085035_mp4_264_hd.mp4" type="video/mp4">
+                        <source src="fgy6gnqmwqnq398XGlk_320943085035_mp4_264_hd.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
+                </div>
+
+
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    
+                        <img src="http://localhost/pumpbag.jpg" alt="">
+                        <!-- Hover Content -->
+                        <!-- <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From $318</p>
+                            <h4>Modern Rocking Chair</h4>
+                        </div> -->
+                        <div class="price-tag hover-content" style="background: #fbb710;">
+                            <!-- <div class="hole"></div> -->
+                            <div class="size">Manual</div>
+                            <div class="dimensions" style="margin-top: -7px;">Pump</div>
+                            <div class="price" style="margin-top: -5px;">₱49.00</div>
+                            
+                          </div>
+                    
+                </div>
+                
+                
+                <div class="single-products-catagory clearfix" style="position: absolute; left: 33.2762%; top: 898px;">
+                    <a href="shop.html">
+                        <img src="http://localhost/pumpelectric.jpg" alt="">
+                        <!-- Hover Content -->
+                        <!-- <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From $318</p>
+                            <h4>Home Deco</h4>
+                        </div> -->
+                        <div class="price-tag hover-content" style="background: #fbb710;">
+                            <!-- <div class="hole"></div> -->
+                            <div class="size">Auto</div>
+                            <div class="dimensions" style="margin-top: -7px;">Pump</div>
+                            <div class="price" style="margin-top: -5px;">₱230.00</div>
+                            
+                          </div>
+                    </a>
+                </div>
+
+                
+
+                
+            </div>
+        </div>
+        <!-- Product Catagories Area End -->
+    </div>
+    <!-- ##### Main Content Wrapper End ##### -->
+
+    <!-- ##### Newsletter Area Start ##### -->
+    <div style="background: #80808012;">
+    <div class="rating reviews-container" style="padding-top: 30px; padding-bottom: 30px; text-align: center;">
+        <span class="stars" data-rating="5">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </span>
+        <span class="average">5.0</span> <span>(25 Reviews) on <a href="dsfsdfs" target="_blank"><i font-size: small;>Facebook MarketPlace</i></a>, <a href="dsfsdfs" target="_blank"><i font-size: small;>Page</i></a></span>
+      </div>
+    </div>
+      
+      <div style="background: #80808012;">
+        <div class="reviews-container">
+        <div class="reviews" id="reviews">
+          <div class="review">
+            <span class="stars" data-rating="4">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </span>
+            <p><img src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" style="width: 39px; width: 30px; height: 30px; border-radius: 50%;"> </br><span style="font-size: medium; color: #00000073;">qwert yuioj</span> </br><i>“This product exceeded my expectations. Great quality and fast delivery.”</i></p>
+          </div>
+      
+          <div class="review">
+            <span class="stars" data-rating="5">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <p><img src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" style="width: 39px; width: 30px; height: 30px; border-radius: 50%;"> </br><span style="font-size: medium; color: #00000073;">qwert yuioj</span> </br>&ldquo;<i>Best purchase ever! I'm extremely satisfied with the product and the seller's service.</i>&rdquo;</p>
+          </div>
+
+
+          <div class="review">
+            <span class="stars" data-rating="5">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <p><img src="https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg" style="width: 39px; width: 30px; height: 30px; border-radius: 50%;"> </br><span style="font-size: medium; color: #00000073;">qwert yuioj</span> </br><i>“Best purchase ever! I'm extremely satisfied with the product and the seller's service.”</i></p>
+          </div>
+      
+          <!-- Add more reviews here -->
+      
+        </div>
+      </div>
+      </div>
+      
+      <div style="background: #80808012;">
+        <div class="controls reviews-container" style="padding-bottom: 30px;">
+        <button class="btnreview" id="prevBtn">Previous</button>
+        <button class="btnreview" id="nextBtn">Next</button>
+      </div>
+      </div>
+      
+      
+      
+      <section class="newsletter-area section-padding-100-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Newsletter Text -->
+                <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="newsletter-text mb-100">
+                        <h2>Apply for a <span>% Discount</span></h2>
+                        <p><i>🎉 Welcome to our exclusive discount event! Enjoy unbeatable savings across our entire range. Don't wait, explore now for fantastic deals. Hurry, this offer won't last long!</i></br>
+                            <i>Copy the discount code</i> - <span style="font-size: x-large;">ORDER-1234567890</span></p>
+                    </div>
+                </div>
+                <!-- Newsletter Form -->
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <!-- <div class="newsletter-form mb-100">
+                        <form action="#" method="post">
+                            <input type="email" name="email" class="nl-email" placeholder="Your E-mail">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div> -->
+                    <div class="newsletter-text mb-100">
+                        
+                        <p><i style="color: #ffffffc4;">Vacuum bags compress clothes, maximizing storage space. They protect garments from moisture, dust, and pests, preserving their quality. Ideal for travel, they minimize wrinkles and make packing efficient. Additionally, vacuum sealing prolongs clothing lifespan by reducing exposure to air, helping maintain freshness and preventing odors.</i>
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Newsletter Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix" style="
+    background: #ff6800;
+">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single_widget_area">
+                        <!-- Logo -->
+                        <div class="footer-logo mr-50">
+                            <a href="index.html"><img src="img/bv.jpg" alt="" style="
+                                margin-top: -70px; 
+    width: 200px;
+    /* height: 100px; */
+    margin-bottom: -90px;
+                            "></a>
+                        </div>
+                        <!-- Copywrite Text -->
+                        <p class="copywrite" style="color: #ffffff;
+                    "><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with</i> by <a href="https://colorlib.com" target="_blank">Buyless</a> & Re-distributed by <a href="https://themewagon.com/" target="_blank">Buyless</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-8">
+                    <div class="single_widget_area">
+                        <!-- Footer Menu -->
+                        <!-- <div class="footer_menu">
+                            <nav class="navbar navbar-expand-lg justify-content-end">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavContent" aria-controls="footerNavContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                                <div class="collapse navbar-collapse" id="footerNavContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="shop.html">Shop</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-details.html">Product</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cart.html">Cart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="checkout.html">Checkout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
+
+
+<script>
+    const reviewsContainer = document.getElementById('reviews');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let currentPosition = 0;
+  
+    function moveReviews(direction) {
+      const reviewWidth = reviewsContainer.firstElementChild.offsetWidth;
+      const containerWidth = reviewsContainer.offsetWidth;
+      const maxPosition = reviewsContainer.scrollWidth - containerWidth;
+  
+      if (direction === 'next' && currentPosition < maxPosition) {
+        currentPosition += reviewWidth;
+      } else if (direction === 'prev' && currentPosition > 0) {
+        currentPosition -= reviewWidth;
+      }
+  
+      reviewsContainer.scrollTo({
+        left: currentPosition,
+        behavior: 'smooth'
+      });
+    }
+  
+    prevBtn.addEventListener('click', () => moveReviews('prev'));
+    nextBtn.addEventListener('click', () => moveReviews('next'));
+  </script>
